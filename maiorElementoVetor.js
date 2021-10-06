@@ -1,8 +1,9 @@
 /*
-    Temos um vetor de N inteiros;
+    Temos um vetor(array) de N inteiros;
     Devemos encontrar dentro do vetor o maior valor e mostrar na tela;
 */
 
+//vetor de inteiros com 6 elementos
 const vetor = [9, 10, 13, 12, 17, 20, 2];
 
 /* 
