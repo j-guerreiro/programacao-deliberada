@@ -10,11 +10,11 @@ const vetor = [9, 10, 13, 12, 17, 20, 2];
    funcao recebe um vetor de inteiros e
    encontra o maior valor
 */
-function maiorElemento(vetor){
-    var maiorValor = vetor[0];
-    for(let i = 0; i < vetor.length; i++) 
-        if(vetor[i] > maiorValor)
-            maiorValor = vetor[i];
+function maiorElemento(alice){
+    var maiorValor = alice[0];
+    for(let i = 0; i < alice.length; i++) 
+        if(alice[i] > maiorValor)
+            maiorValor = alice[i];
     
     return maiorValor;
 };
